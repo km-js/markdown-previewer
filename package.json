@@ -2,7 +2,7 @@
   "name": "meme-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://km-js.github.io/markdown-previewer-fcc",
+  "homepage": "https://km-js.github.io/markdown-previewer",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "insane": "^2.6.2",
