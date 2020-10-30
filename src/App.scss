@@ -16,7 +16,7 @@ body {
   background-color: $darkAccent;
   color: #ffffff;
   height: 50px;
-  font-size: 40px;
+  font-size: 2.5em;
   margin-top: -10px;
   text-align: center;
   padding-top: 15px;
@@ -27,14 +27,15 @@ body {
 }
 
 .editorWrap {
-  width: 620px;
-  margin-left: 20px;
-  margin-top: 20px;
+ width: 750px;
+ margin-left: 20px;
+ margin-top: 20px;
+
 
   .title {
     display: inline-block;
     font-family: "Indie Flower", cursive;
-    font-size: 30px;
+    font-size: 2.5em;
     font-weight: bolder;
     color: $darkAccent;
     padding: 10px;
@@ -48,23 +49,23 @@ body {
     resize: none;
     outline: none;
     padding: 10px;
-    font-size: 18px;
+    font-size: 1.5em;
     color: #808080;
   }
 }
 
 .previewWrap {
-  width: 650px;
-  min-height: 200px;
-  overflow-wrap: break-word;
-  margin: 50px 0 0 50px;
+  width: 550px;
+ overflow-wrap: break-word;
+ margin-top: 30px;
+ margin-left: 9px;
 
   #preview {
     background-color: $darkAccent;
     color: #ffffff;
     width: 100%;
     padding: 0 25px;
-    font-size: 18px;
+    font-size: 1em;
     border: $default-border;
     border-radius: 30px;
     box-shadow: $shadow;
@@ -72,26 +73,34 @@ body {
   }
 }
 
-@media screen and (max-width: 850px) {
-  .previewWrap {
-    width: 550px;
-  }
-  .editorWrap {
-    width: 550px;
-  }
-}
 
 @media screen and (max-width: 650px) {
   body {
     margin: 5px 0;
   }
-  .editorWrap {
-    width: 80vw;
-    margin: 0 auto;
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
   }
 
+  .editorWrap {
+    width: 350px;
+    height: 350px;
+    margin-left: 5px;
+
+   .title{
+    font-size: 1.5em;
+  }
+  textarea{
+    font-size: 1.2em;
+  }
+  }
+
+  
   .previewWrap {
-    width: 95vw;
+    width: 310px;
+    padding-top: 80px;
     #preview {
       width: 100%;
       img {
