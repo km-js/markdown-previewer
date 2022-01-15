@@ -6,7 +6,7 @@
   "dependencies": {
     "gh-pages": "^2.2.0",
     "insane": "^2.6.2",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
